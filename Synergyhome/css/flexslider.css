@@ -174,6 +174,7 @@ html[xmlns] .slides {display: block;}
 	height:16px;
 	background-color:#333;
 	cursor:default;
+
 }
 
 
@@ -229,6 +230,7 @@ html[xmlns] .slides {display: block;}
 	bottom:50px;
 	width:100%;
 	text-align:center;
+
 }
 .flex-control-thumbs li {
 	overflow:hidden;
@@ -237,13 +239,14 @@ html[xmlns] .slides {display: block;}
 	width: 100px;
 	height:70px;
 	margin: 0 5px;
+
 }
 .flex-control-thumbs img {
 	position:asbolute;
 	width: auto;
 	max-width:none;
 	height:100%;
-	display: block;
+	display: none !important;
 	cursor: pointer;
 }
 .flex-control-thumbs li img.flex-active:before {
@@ -263,6 +266,7 @@ html[xmlns] .slides {display: block;}
 	left:0;
 	bottom:45px;
 	width:100%;
+	display: none !important;
 }
 #carousel .slides {text-align:center;}
 #carousel .slides li {
@@ -277,6 +281,8 @@ html[xmlns] .slides {display: block;}
 	opacity:1 !important;
 	cursor:pointer;
 	box-shadow:3px 3px 3px rgba(0,0,0,0.15);
+
+
 }
 #carousel .slides li.flex-active-slide:before {
 	content:'';
@@ -300,6 +306,7 @@ html[xmlns] .slides {display: block;}
     border-left: 5px solid transparent;
     border-right: 4px solid transparent;
     border-bottom: 5px solid #fff;
+
 }
 
 #carousel .slides li img {
